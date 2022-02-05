@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Payment Method</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <header>
+                <div>
+                    <h1><strong>Payment form example</strong></h1>
+                </div>
+            </header>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <p>Some fields are missing</p>
+
+
+            <div>
+                <label for="Card#">Card #</label>
+                <input type="tel" id="Card#" placeholder="XXXXXXXXXXXXXXXX">
+            </div>
+            <div>
+                <label for="CVC#">CVC #</label>
+                <input type="tel" id="CVC#" placeholder="0000">
+            </div>
+            <div>
+                <label for="Amount">Amount</label>
+                <input type="tel" id="Amount" placeholder="Amount">
+            </div>
+
+
+
+
+            <section>
+                <div>
+                    <label for="FN">First Name</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="LN">Last Name</label>
+                    <input type="text">
+                </div>
+            </section>
+            <section>
+                <div>
+                    <label for="City">City</label>
+                    <input type="text" id="City">
+                </div>
+                <div>
+                    <label for="State">State</label>
+                    <select id="State">
+                        <option selected>Pick a state</option>
+                        <option>California</option>
+                        <option>Florida</option>
+                        <option>New York</option>
+                        <option>Washington</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="PC">Postal Code</label>
+                    <input type="text" id="PC">
+                </div>
+            </section>
+            <section>
+                <p>We accept:</p>
+                <div>
+                    <input type="radio" id="mastercard" value="option1">
+                    <label><i class="fab fa-cc-mastercard"></i></label>
+                </div>
+                <div>
+                    <input type="radio" id="visa" value="option2">
+                    <label><i class="fab fa-cc-visa"></i></label>
+                </div>
+                <div>
+                    <input type="radio" id="dinersclub" value="option3">
+                    <label><i class="fab fa-cc-diners-club"></i></label>
+                </div>
+                <div>
+                    <input type="radio" id="amex" value="option4">
+                    <label><i class="fab fa-cc-amex"></i></label>
+                </div>
+            </section>
+            <div>
+                <label for="Message">Message</label>
+                <textarea id="Message" rows="6"></textarea>
+                <p>add any notes here</p>
+            </div>
+            <div>
+                <input type="reset" value="Cancel">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
