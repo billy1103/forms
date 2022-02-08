@@ -1,8 +1,61 @@
 body{
-font-family: 'Roboto', sans-serif;
-border: 1px solid gray;
-background-color: rgb(212, 211, 211);
+    margin: 0;
+    padding: 0;
+    height: 100vw;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid gray;
+    width: 50%;
+    margin-left: 25%; */
 }
-header{
-    border: 1px solid gray;
+    
+form{
+    height: 500px;
+    width: 50%;
+}
+  
+
+    
+
+h1{
+    border-bottom: 1px solid gray;
+    background-color: hsl(0deg 0% 97%);
+    margin: 0;
+    padding: 15px;
+}
+.top{
+    background-color: hsl(356deg 70% 91%);
+    color: hsl(355deg 53% 31%);
+    margin: 15px;
+    padding: 5px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: hsl(0deg 0% 97%);
+    padding: 15px;
+    gap: 5px;
+    
+    
+}
+.method{
+    background-color: hsl(208deg 8% 46%);
+    height: 10%;
 }
