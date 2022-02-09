@@ -25,36 +25,39 @@
 
         <div class="first">
             <div>
-
-            <label for="Card#">Card #</label></div>
-            <input type="tel" id="Card#" placeholder="XXXXXXXXXXXXXXXX">
-
-
-            <label for="CVC#">CVC #</label>
-            <input type="tel" id="CVC#" placeholder="0000">
-
-
-            <label for="Amount">Amount</label>
-            <input type="tel" id="Amount" placeholder="Amount">
-
+                <label for="Card#">Card #</label><br>
+                <input type="tel" id="Card#" name="Card#" placeholder="XXXXXXXXXXXXXXXX">
+            </div>
+            <div>
+                <label for="CVC#">CVC #</label><br>
+                <input type="tel" id="CVC#" placeholder="0000">
+            </div>
+            <div>
+                <label for="Amount">Amount</label><br>
+                <span><strong>$</strong></span>
+                <input type="tel" id="Amount" placeholder="Amount">
+            </div>
         </div>
 
         <div class="second">
-
-            <label for="FN">First Name</label>
-            <input type="text">
-
-            <label for="LN">Last Name</label>
-            <input type="text">
-
+            <div>
+                <label for="FN">First Name</label><br>
+                <input type="text">
+            </div>
+            <div>
+                <label for="LN">Last Name</label><br>
+                <input type="text">
+            </div>
         </div>
 
         <div class="third">
-           
-                <label for="City">City</label>
+            <div>
+
+                <label for="City">City</label><br>
                 <input type="text" id="City">
-            
-                <label for="State">State</label>
+            </div>
+            <div>
+                <label for="State">State</label><br>
                 <select id="State">
                     <option selected>Pick a state</option>
                     <option>California</option>
@@ -62,16 +65,16 @@
                     <option>New York</option>
                     <option>Washington</option>
                 </select>
-            
-                <label for="PC">Postal Code</label>
+            </div>
+            <div>
+                <label for="PC">Postal Code</label><br>
                 <input type="text" id="PC">
-            
+            </div>
         </div>
 
         <div class="fourth">
             <p>We accept:</p>
             <div class="method">
-
                 <input type="radio" id="mastercard" value="option1">
                 <label><i class="fab fa-cc-mastercard"></i></label>
 
@@ -85,17 +88,19 @@
                 <label><i class="fab fa-cc-amex"></i></label>
             </div>
 
-
-
-            <label for="Message">Message</label>
-            <textarea id="Message" rows="6"></textarea>
-            <p>add any notes here</p>
+            <div>
+                <label for="Message">Message</label><br>
+                <textarea id="Message" rows="6"></textarea>
+                <p>add any notes here</p>
+            </div>
 
         </div>
 
         <div class="bottom">
-            <input type="reset" value="Cancel" style="background-color: hsl(208deg 8% 46%); color: white; border: 1px solid hsl(208deg 8% 46%);">
-            <input type="submit" value="Send" style="background-color: hsl(211deg 100% 50%); color: white; border: 1px solid hsl(211deg 100% 50%);">
+            <input type="reset" value="Cancel"
+                style="background-color: hsl(208deg 8% 46%); color: white; border: 1px solid hsl(208deg 8% 46%);">
+            <input type="submit" value="Send"
+                style="background-color: hsl(211deg 100% 50%); color: white; border: 1px solid hsl(211deg 100% 50%);">
         </div>
 
 

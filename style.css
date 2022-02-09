@@ -1,20 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vw;
     font-family: 'Roboto', sans-serif;
-    /* border: 1px solid gray;
-    width: 50%;
-    margin-left: 25%; */
-}
+    border: 1px solid gray;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
     
-form{
-    height: 500px;
-    width: 50%;
-}
-  
+    
 
-    
+}
 
 h1{
     border-bottom: 1px solid gray;
@@ -29,25 +25,21 @@ h1{
     padding: 5px;
 }
 .first{
-    display: flex;
-    flex-direction: row;
+    
+    
 }
 .second{
-    display: flex;
-    flex-direction: row;
+    
 }
 .third{
-    display: flex;
-    flex-direction: row;
+    
 }
 .fourth{
-    display: flex;
-    flex-direction: row;
+    
     border-bottom: 1px solid gray;
 }
 .bottom{
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     background-color: hsl(0deg 0% 97%);
     padding: 15px;
@@ -58,4 +50,5 @@ h1{
 .method{
     background-color: hsl(208deg 8% 46%);
     height: 10%;
+    width: auto;
 }
