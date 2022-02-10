@@ -23,87 +23,84 @@
             <p>Some fields are missing</p>
         </div>
 
-        <div class="first">
-            <div>
-                <label for="Card#">Card #</label><br>
-                <input type="tel" id="Card#" name="Card#" placeholder="XXXXXXXXXXXXXXXX">
-            </div>
-            <div>
-                <label for="CVC#">CVC #</label><br>
-                <input type="tel" id="CVC#" placeholder="0000">
-            </div>
-            <div>
-                <label for="Amount">Amount</label><br>
-                <span><strong>$</strong></span>
-                <input type="tel" id="Amount" placeholder="Amount">
-            </div>
-        </div>
+        <section class="first">
+            <label style="width: 45%;">
+                <div>Card #</div>
+                <input type="tel" id="Card#" name="Card#" placeholder="XXXXXXXXXXXXXXXX" style="width: 100%; margin-top: 10px;">
+            </label>
+            <label style="width: 25%;">
+                <div>CVC #</div>
+                <input type="tel" id="CVC#" placeholder="0000" style="width: 100%; margin-top: 10px;">
+            </label>
+            <label style="width: 30%;">
+                <div>Amount</div>
+                <div class="dollar">
+                    <span><strong>$</strong></span>
+                    <input type="tel" id="Amount" placeholder="Amount" style="width: 100%; margin-top: 10px;">
+                </div>
+            </label>
+        </section>
 
-        <div class="second">
-            <div>
-                <label for="FN">First Name</label><br>
-                <input type="text">
-            </div>
-            <div>
-                <label for="LN">Last Name</label><br>
-                <input type="text">
-            </div>
-        </div>
+        <section class="second">
 
-        <div class="third">
-            <div>
+            <label style="width: 50%;">
+                <div>First Name</div>
+                <input type="text" style="width: 100%; margin-top: 10px;">
+            </label>
+            <label style="width: 50%;">
+                <div>Last Name</div>
+                <input type="text" style="width: 100%; margin-top: 10px;">
+            </label>
+        </section>
 
-                <label for="City">City</label><br>
-                <input type="text" id="City">
-            </div>
-            <div>
-                <label for="State">State</label><br>
-                <select id="State">
+        <section class="third">
+            <label style="width: 54%;">
+                <div>City</div>
+                <input type="text" id="City" style="width: 100%; margin-top: 10px;">
+            </label>
+            <label style="width: 25%;">
+                <div>State</div>
+                <select id="State" style="width: 100%; margin-top: 10px;">
                     <option selected>Pick a state</option>
                     <option>California</option>
                     <option>Florida</option>
                     <option>New York</option>
                     <option>Washington</option>
                 </select>
-            </div>
-            <div>
-                <label for="PC">Postal Code</label><br>
-                <input type="text" id="PC">
-            </div>
-        </div>
+            </label>
+            <label style="width: 25%;">
+                <div>Postal Code</div>
+                <input type="text" id="PC" style="width: 100%; margin-top: 10px;">
+            </label>
+        </section>
 
-        <div class="fourth">
-            <p>We accept:</p>
-            <div class="method">
-                <input type="radio" id="mastercard" value="option1">
-                <label><i class="fab fa-cc-mastercard"></i></label>
+        <section class="fourth">
+            <label style="width: 50%;">
+                <div>We accept:</div>
+                <div class="method" style="margin-top: 10px;">
+                    <input type="radio" id="mastercard" value="option1">
+                    <i class="fab fa-cc-mastercard"></i>
+                    <input type="radio" id="visa" value="option2">
+                    <i class="fab fa-cc-visa"></i>
+                    <input type="radio" id="dinersclub" value="option3">
+                    <i class="fab fa-cc-diners-club"></i>
+                    <input type="radio" id="amex" value="option4">
+                    <i class="fab fa-cc-amex"></i>
+                </div>
+            </label>
+            <label style="width: 50%;">
+                <div>Message</div>
+                <textarea id="Message" rows="6" style="width: 100%; margin-top: 10px;"></textarea>
+                <p class="mini">add any notes here</p>
+            </label>
+        </section>
 
-                <input type="radio" id="visa" value="option2">
-                <label><i class="fab fa-cc-visa"></i></label>
-
-                <input type="radio" id="dinersclub" value="option3">
-                <label><i class="fab fa-cc-diners-club"></i></label>
-
-                <input type="radio" id="amex" value="option4">
-                <label><i class="fab fa-cc-amex"></i></label>
-            </div>
-
-            <div>
-                <label for="Message">Message</label><br>
-                <textarea id="Message" rows="6"></textarea>
-                <p>add any notes here</p>
-            </div>
-
-        </div>
-
-        <div class="bottom">
+        <section class="bottom">
             <input type="reset" value="Cancel"
-                style="background-color: hsl(208deg 8% 46%); color: white; border: 1px solid hsl(208deg 8% 46%);">
+                style="background-color: hsl(208deg 8% 46%); color: white; border: 1px solid hsl(208deg 8% 46%); padding: 10px;">
             <input type="submit" value="Send"
-                style="background-color: hsl(211deg 100% 50%); color: white; border: 1px solid hsl(211deg 100% 50%);">
-        </div>
-
-
+                style="background-color: hsl(211deg 100% 50%); color: white; border: 1px solid hsl(211deg 100% 50%); padding: 10px;">
+        </section>
     </form>
 
 </body>
